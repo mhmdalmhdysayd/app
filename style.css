@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    background-color: #e1ecec;
+    height: 100px;
+}
+
+.navigation{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+
+.logo{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 249, 249);
+}
+
+.image_logo{
+    float: right;
+    object-fit: cover;
+    width: 30%; 
+    height: 100%;
+    border-radius: 50%;
+}
+
+#text_mahdi_logo{
+    float: left;
+    font-size: 30px;
+    font-family: 'Mirza', cursive;
+    line-height: 100px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.ul{
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+}
+
+.ul a{
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    width: 20%;
+    height: 100%;
+    line-height: 100px;
+    text-decoration: none;
+    margin: 0px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ul a:hover{
+    background-color: deeppink;
+    animation-name: changeBackground;
+    animation-duration: 7s;
+}
+@keyframes changeBackground{
+    0%{
+        background-color: rgb(201, 178, 178);
+    }
+    25%{
+        background-color: greenyellow;
+
+    }
+    50%{
+        background-color: orange;
+
+    }
+    75%{
+        background-color: rgb(255, 52, 147);
+    }
+    100%{
+        background-color: deepskyblue;
+
+    }
+}
+
+
+
+.divClassMain{
+    margin-top: 5px;
+}
+
+#aside_ID{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: white;   
+}
+
+#myNameID{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    font-style: unset;
+    border-bottom: 2px solid red;
+}
+
+#aside_ID #iconImg{
+    width: 100%;
+    text-align: center;
+    border: 2;
+
+}
+
+#aside_ID #iconImg img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    border-bottom: 2px solid red;
+}
+
+#aside_ID #iconImg img:hover{
+    width: 70px;
+    height: 70px;
+    border-bottom: 2px solid black;
+}
+
+
+#article{
+    float: right;
+    width: 70%;
+    height: 400px;
+    background-color: rgb(68, 238, 153);
+    margin-bottom: 5px;
+    position: relative;
+    animation-name: changeBackground2;
+    animation-duration: 10s;
+}
+@keyframes changeBackground2{
+    0%{
+        background-color: rgb(221, 55, 55);
+    }
+    25%{
+        background-color: rgb(143, 192, 70);
+
+    }
+    50%{
+        background-color: rgb(255, 212, 132);
+
+    }
+    75%{
+        background-color: rgb(255, 52, 147);
+    }
+    100%{
+        background-color: deepskyblue;
+
+    }
+}
+
+#box{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    top: 35%;
+    left: 30%;
+    background-color: aqua;
+}
+
+#box h1{
+    font-size: 22px;
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+
+#box p{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Mirza', cursive;
+
+}
+
+
+.footer{
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    background-color: whitesmoke;
+}
+
+
+.footer .main_img img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+}
